@@ -1,7 +1,7 @@
 services:
   casdoor-noncefix:
     build:
-      context: .
+      context: https://github.com/nickvanderdoes/casdoor.git#fix-empty-oidc-nonce
       dockerfile: Dockerfile
 
     image: casdoor-noncefix:4.4.0
