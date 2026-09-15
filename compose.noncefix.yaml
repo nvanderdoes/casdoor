@@ -1,0 +1,7 @@
+services:
+  casdoor-noncefix:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    image: casdoor-noncefix:4.4.0
