@@ -1,0 +1,7 @@
+services:
+  casdoor-noncefix:
+    build:
+      context: https://github.com/nvanderdoes/casdoor.git#noncefix-4.4.0
+      dockerfile: Dockerfile
+
+    image: casdoor-noncefix:4.4.0
